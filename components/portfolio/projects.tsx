@@ -7,14 +7,16 @@ const projects = [
     title: 'PowerShell IT Automation Toolkit',
     description:
       'I built a beginner-friendly PowerShell toolkit to automate common IT support and troubleshooting tasks. It gathers system information, checks disk space, reviews network configuration, tests connectivity and DNS resolution, and checks the status of selected Windows services.',
-    tags: ['PowerShell', 'Windows', 'Command Line', 'Automation', 'Troubleshooting'],
+    tags: ['PowerShell', 'Windows', 'Command Line', 'Automation', 'Troubleshooting'],  
+link: 'https://github.com/sunnycysec/PowerShell-IT-toolkit',
   },
  {
     no: 'No. 02',
     title: 'Network Traffic Analysis & Troubleshooting Lab',
     description:
        'I am building a network traffic analysis and troubleshooting lab using Wireshark to capture and analyze real network traffic. I will investigate protocols such as DNS, TCP, UDP, HTTP/HTTPS, and ICMP, use packet captures to diagnose connectivity and name-resolution issues, and document my findings and troubleshooting process.',
-    tags: ['Linux', 'Bash', 'SSH', 'System Administration', 'Security'],
+    tags: ['Wireshark', 'TCP/IP', 'DNS', 'Packet Analysis', 'Network Analysis'],
+comingSoon: true,
   },
 ]
 
@@ -32,10 +34,21 @@ export function Projects() {
 
               <div className="flex items-center justify-between gap-4 text-xs uppercase tracking-[0.25em]">
                 <span className="text-gold">{project.no}</span>
-                <span className="border border-gold/40 px-2.5 py-1 text-[0.65rem] tracking-[0.2em] text-gold/90">
-                  <span className="sr-only">Status: </span>
-                  Planned Project
-                </span>
+                {project.link ? (
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border border-gold/40 px-2.5 py-1 text-[0.65rem] tracking-[0.2em] text-gold/90 transition-colors hover:border-gold hover:text-gold"
+  >
+    View Project →
+  </a>
+) : (
+  <span className="border border-gold/40 px-2.5 py-1 text-[0.65rem] tracking-[0.2em] text-gold/90">
+    Project Coming Soon
+  </span>
+)}
+                  
               </div>
 
               <h3 className="font-serif text-3xl text-cream text-balance">{project.title}</h3>
