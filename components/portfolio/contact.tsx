@@ -4,9 +4,9 @@ import { Reveal } from './reveal'
 import { SectionHeading } from './section-heading'
 
 const channels = [
-  { label: 'Email', value: 'samantha@example.com', href: 'mailto:samantha@example.com', icon: Mail },
-  { label: 'LinkedIn', value: 'linkedin.com/in/samantha', href: 'https://www.linkedin.com/', icon: UserRound },
-  { label: 'GitHub', value: 'github.com/samantha', href: 'https://github.com/', icon: Code },
+  { label: 'Email', value: 'sunny.cysec@outlook.com', href: 'mailto:sunny.cysec@outlook.com', icon: Mail },
+  { label: 'LinkedIn', value: 'linkedin.com/in/sunnycysec', href: 'https://linkedin.com/in/sunnycysec', icon: UserRound },
+  { label: 'GitHub', value: 'github.com/sunnycysec', href: 'https://github.com/sunnycysec', icon: Code },
 ]
 
 export function Contact() {
@@ -24,7 +24,7 @@ export function Contact() {
               Whether it&apos;s an opportunity, a lab idea, or a question about something I&apos;ve built, my inbox is always open.
             </p>
             <a
-              href="mailto:samantha@example.com"
+              href="mailto:sunny.cysec@outlook.com"
               className="mt-2 inline-flex w-fit items-center gap-3 border border-gold/60 bg-gold/10 px-6 py-3 text-xs uppercase tracking-[0.25em] text-cream transition-colors hover:bg-gold hover:text-background"
             >
               <Mail className="size-4" aria-hidden="true" />
