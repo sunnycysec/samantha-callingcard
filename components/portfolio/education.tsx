@@ -18,7 +18,7 @@ export function Education() {
             <h3 className="max-w-2xl font-serif text-4xl text-cream text-balance md:text-5xl">
               {'B.S. Network & Cloud Engineering'}
             </h3>
-            <p className="font-serif text-lg italic text-muted-foreground">In progress</p>
+            <p className="font-serif text-lg italic text-muted-foreground">Graduation expected Aug 2028</p>
             <Sprig className="text-gold/60" />
             <ul className="flex max-w-2xl flex-wrap justify-center gap-x-6 gap-y-2" aria-label="Areas of study">
               {coursework.map((course) => (
