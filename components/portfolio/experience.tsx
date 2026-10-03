@@ -1,25 +1,39 @@
 import { Reveal } from './reveal'
 import { SectionHeading } from './section-heading'
 
-const entries = [
+type ExperienceEntry = {
+  period?: string
+  role: string
+  place: string
+  points: string[]
+}
+
+const entries: ExperienceEntry[] = [
   {
-    period: 'Present',
-    role: 'Home Lab Practitioner',
-    place: 'Self-directed',
+    period: 'Aug 2025 – Present',
+    role: 'IT & Network Engineering Student',
+    place: 'Western Governors University',
     points: [
-      'Build and maintain virtualized Linux and Windows environments for hands-on practice.',
-      'Configure and document network services including DNS, DHCP and routing.',
-      'Automate routine tasks with PowerShell and track changes using Git.',
+      'Developing hands-on skills in networking, Linux, Windows, cloud computing, and IT troubleshooting through coursework and lab environments.',
+      'Working with networking fundamentals including TCP/IP, DNS, DHCP, common network services, and troubleshooting concepts.',
+      'Using Linux command-line tools, Windows PowerShell, and Git/version control as part of technical coursework and personal projects.',
+      'Building and documenting technical projects to strengthen practical problem-solving and troubleshooting skills.',
+      'Completed CompTIA A+ Core 2 and currently preparing for CompTIA A+ Core 1.',
+      'Earned Linux Essentials certification and completed the Google IT Support Professional Certificate.',
     ],
   },
   {
-    period: 'Recent',
-    role: 'Technical Support',
-    place: 'Help desk & end-user support',
+    role: 'Technology & Operations Experience',
+    place: 'ALDI | Management',
     points: [
-      'Troubleshoot hardware, software and connectivity issues with clear, patient communication.',
-      'Administer accounts and productivity tools across Google Workspace and Microsoft 365.',
-      'Write step-by-step guides so common fixes are repeatable and easy to follow.',
+      'Troubleshot store technology and equipment issues, including printers, alarm systems, electronic safes, and other operational systems.',
+      'Used technical documentation, manuals, and vendor support resources to investigate and resolve equipment issues.',
+      'Assisted with setting up employee access to the electronic safe according to established procedures and security requirements.',
+      'Performed inventory counts, price checks, receipt/return verification, and other operational audits requiring attention to detail and accurate documentation.',
+      'Conducted employee and process audits using store systems and security procedures to identify discrepancies and reduce operational risk.',
+      'Trained 50+ new employees on front-end operations, cash-handling procedures, store systems, and company processes.',
+      'Supported multiple store openings and helped train teams during new-store launches.',
+      'Communicated technical and operational issues clearly to district leadership and appropriate support contacts.',
     ],
   },
 ]
