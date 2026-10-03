@@ -23,7 +23,7 @@ export function Skills() {
   return (
     <section aria-labelledby="skills-title" className="border-y border-border bg-forest/20">
       <div className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
-        <SectionHeading id="skills-title" numeral="II" title="Skills" latin="Herbarium technicum — a catalogue of tools" />
+        <SectionHeading id="skills-title" numeral="III" title="Skills" latin="Herbarium technicum — a catalogue of tools" />
 
         <div className="grid gap-px border border-border bg-border md:grid-cols-3">
           {skillGroups.map((group, i) => (

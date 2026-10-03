@@ -16,6 +16,9 @@ export default function Page() {
         <div id="about" className="scroll-mt-16">
           <About />
         </div>
+        <div id="education" className="scroll-mt-16">
+          <Education />
+        </div>
         <div id="skills" className="scroll-mt-16">
           <Skills />
         </div>
@@ -24,9 +27,6 @@ export default function Page() {
         </div>
         <div id="experience" className="scroll-mt-16">
           <Experience />
-        </div>
-        <div id="education" className="scroll-mt-16">
-          <Education />
         </div>
         <div id="contact" className="scroll-mt-16">
           <Contact />

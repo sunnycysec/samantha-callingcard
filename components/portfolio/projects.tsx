@@ -32,7 +32,7 @@ const projects = [
 export function Projects() {
   return (
     <section aria-labelledby="projects-title" className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
-      <SectionHeading id="projects-title" numeral="III" title="Projects" latin="Specimina — field collections" />
+      <SectionHeading id="projects-title" numeral="IV" title="Projects" latin="Specimina — field collections" />
 
       <div className="flex flex-wrap justify-center gap-6">
         {projects.map((project, i) => (

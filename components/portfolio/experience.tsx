@@ -43,7 +43,7 @@ export function Experience() {
   return (
     <section aria-labelledby="experience-title" className="border-y border-border bg-forest/20">
       <div className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
-        <SectionHeading id="experience-title" numeral="IV" title="Experience" latin="Annales — growth rings" />
+        <SectionHeading id="experience-title" numeral="V" title="Experience" latin="Annales — growth rings" />
 
         <ol className="relative flex flex-col gap-12 border-l border-gold/25 pl-8 md:pl-12">
           {entries.map((entry, i) => (

@@ -8,7 +8,7 @@ const coursework = ['Network Fundamentals', 'Linux Administration', 'Cloud Found
 export function Education() {
   return (
     <section aria-labelledby="education-title" className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
-      <SectionHeading id="education-title" numeral="V" title="Education" latin="Disciplina — cultivated knowledge" />
+      <SectionHeading id="education-title" numeral="II" title="Education" latin="Disciplina — cultivated knowledge" />
 
       <Reveal>
         <div className="relative border border-gold/30 p-2">
