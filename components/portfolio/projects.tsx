@@ -4,31 +4,17 @@ import { SectionHeading } from './section-heading'
 const projects = [
   {
     no: 'No. 01',
-    title: 'Linux Security & Administration Lab',
-    description:
-      'I plan to build a Linux virtual machine where I will practice foundational system administration and security skills, including users and groups, file permissions, package management, SSH configuration, firewall rules, system logs, and basic security hardening.',
-    tags: ['Linux', 'Bash', 'SSH', 'System Administration', 'Security'],
-  },
-  {
-    no: 'No. 02',
-    title: 'Network Troubleshooting Lab',
-    description:
-      'I plan to create a small simulated network environment where I will practice diagnosing common networking problems involving IP configuration, DNS, DHCP, connectivity, subnetting, and routing. I will document the troubleshooting process and solutions.',
-    tags: ['TCP/IP', 'DNS', 'DHCP', 'Subnetting', 'Network Troubleshooting'],
-  },
-  {
-    no: 'No. 03',
-    title: 'AWS Infrastructure with Terraform',
-    description:
-      'I plan to use Terraform to provision a small AWS environment as an introduction to Infrastructure as Code. Through a manageable project such as hosting a simple static website, I will explore cloud resources, IAM concepts, security groups, networking, and responsible resource cleanup.',
-    tags: ['AWS', 'Terraform', 'Infrastructure as Code', 'IAM', 'Cloud Security'],
-  },
-  {
-    no: 'No. 04',
     title: 'PowerShell IT Automation Toolkit',
     description:
-      'I plan to write a collection of beginner-friendly PowerShell scripts to automate common IT support tasks. I will practice gathering system information, checking disk space, reviewing network configuration, testing connectivity, and generating basic troubleshooting information.',
+      'I built a beginner-friendly PowerShell toolkit to automate common IT support and troubleshooting tasks. It gathers system information, checks disk space, reviews network configuration, tests connectivity and DNS resolution, and checks the status of selected Windows services.',
     tags: ['PowerShell', 'Windows', 'Command Line', 'Automation', 'Troubleshooting'],
+  },
+ {
+    no: 'No. 02',
+    title: 'Network Traffic Analysis & Troubleshooting Lab',
+    description:
+       'I am building a network traffic analysis and troubleshooting lab using Wireshark to capture and analyze real network traffic. I will investigate protocols such as DNS, TCP, UDP, HTTP/HTTPS, and ICMP, use packet captures to diagnose connectivity and name-resolution issues, and document my findings and troubleshooting process.',
+    tags: ['Linux', 'Bash', 'SSH', 'System Administration', 'Security'],
   },
 ]
 
