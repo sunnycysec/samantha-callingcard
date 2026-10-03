@@ -5,14 +5,6 @@ import { SectionHeading } from './section-heading'
 const projects = [
   {
     no: 'No. 01',
-    title: 'Personal Portfolio',
-    specimen: 'Folium personale',
-    description:
-      'This site — a responsive, accessible portfolio built with Next.js and Tailwind CSS, version-controlled with Git and deployed to the cloud.',
-    tags: ['Next.js', 'Git', 'Deployment'],
-  },
-  {
-    no: 'No. 02',
     title: 'Linux Lab',
     specimen: 'Radix penguinus',
     description:
@@ -20,7 +12,7 @@ const projects = [
     tags: ['Linux', 'Bash', 'SSH'],
   },
   {
-    no: 'No. 03',
+    no: 'No. 02',
     title: 'Network Lab',
     specimen: 'Rete subterranea',
     description:
@@ -28,7 +20,7 @@ const projects = [
     tags: ['TCP/IP', 'DNS', 'DHCP'],
   },
   {
-    no: 'No. 04',
+    no: 'No. 03',
     title: 'Cloud Project',
     specimen: 'Nubes cultivata',
     description:
@@ -42,9 +34,9 @@ export function Projects() {
     <section aria-labelledby="projects-title" className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
       <SectionHeading id="projects-title" numeral="III" title="Projects" latin="Specimina — field collections" />
 
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="flex flex-wrap justify-center gap-6">
         {projects.map((project, i) => (
-          <Reveal key={project.title} delay={(i % 2) * 140}>
+          <Reveal key={project.title} delay={(i % 2) * 140} className="w-full md:w-[calc(50%-0.75rem)]">
             <article className="group relative flex h-full flex-col gap-6 border border-border bg-card/50 p-8 transition-colors duration-500 hover:border-gold/50 hover:bg-forest/25">
               <span className="pointer-events-none absolute left-2 top-2 size-3 border-l border-t border-gold/50" aria-hidden="true" />
               <span className="pointer-events-none absolute bottom-2 right-2 size-3 border-b border-r border-gold/50" aria-hidden="true" />
