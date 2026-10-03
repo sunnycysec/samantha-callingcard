@@ -4,7 +4,7 @@ type SectionHeadingProps = {
   id: string
   numeral: string
   title: string
-  latin: string
+  latin?: string
 }
 
 export function SectionHeading({ id, numeral, title, latin }: SectionHeadingProps) {
@@ -17,7 +17,7 @@ export function SectionHeading({ id, numeral, title, latin }: SectionHeadingProp
       <h2 id={id} className="font-serif text-4xl font-medium text-cream text-balance md:text-5xl">
         {title}
       </h2>
-      <p className="font-serif text-lg italic text-sage">{latin}</p>
+      {latin ? <p className="font-serif text-lg italic text-sage">{latin}</p> : null}
     </Reveal>
   )
 }
