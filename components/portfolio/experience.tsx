@@ -10,7 +10,7 @@ type ExperienceEntry = {
 
 const entries: ExperienceEntry[] = [
   {
-    period: 'Aug 2025 – Present',
+    period: 'Present',
     role: 'IT & Network Engineering Student',
     place: 'Western Governors University',
     points: [
@@ -23,6 +23,7 @@ const entries: ExperienceEntry[] = [
     ],
   },
   {
+    period: 'Past',
     role: 'Technology & Operations Experience',
     place: 'ALDI | Management',
     points: [
